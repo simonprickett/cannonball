@@ -12,6 +12,70 @@ Please note that I  maintain the Windows build of CannonBall. Whilst I strive to
 Thank you! 
 Chris White (Project Creator). 
 
+Raspberry Pi 4 Instructions
+---------------------------
+
+* This has been tested on Raspberry Pi OS <version here>.
+* I used an 8Gb Raspberry Pi 4 with passive cooling case.
+
+Get the system up to date:
+
+```
+sudo apt-get update -y
+```
+
+Install dependencies and libraries:
+
+```
+sudo apt-get install -y cmake libboost-dev libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev libgl1-mesa-dev libegl1-mesa-dev libgles2-mesa-dev
+```
+
+Get the software:
+
+```
+git clone https://github.com/simonprickett/cannonball.git
+```
+
+Prepare to build:
+
+```
+cd cannonball/cmake
+cmake .
+```
+
+Build:
+
+```
+make
+```
+
+This should output an executable named `cannonball`.
+
+Create a roms directory:
+
+```
+mkdir roms
+```
+
+Obtain the OutRun revision B ROM files and place them in the ROMs directory.
+
+Start the engine:
+
+```
+./cannonball
+```
+
+In the settings I've found the following video setup to work well on a Pi 4:
+
+* Frame rate 30fps
+* Fullscreen on
+* Widescreen on
+* Hires off
+* Window scale 2x
+* Scanlines off
+
+Everything below here is the original README...
+---
 
 Getting Started
 ---------------
