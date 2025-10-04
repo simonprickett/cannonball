@@ -12,11 +12,12 @@ Please note that I  maintain the Windows build of CannonBall. Whilst I strive to
 Thank you! 
 Chris White (Project Creator). 
 
-Raspberry Pi 4 Instructions
----------------------------
+Raspberry Pi 4 Instructions (Simon Prickett)
+--------------------------------------------
 
-* This has been tested on Raspberry Pi OS <version here>.
+* This has been tested on Raspberry Pi OS kernel 6.12 Debian 13 trixie.
 * I used an 8Gb Raspberry Pi 4 with passive cooling case.
+* I created the OS image with Raspberry Pi imager, using that to configure the wifi network settings, locale, hostname, username and password.
 
 Get the system up to date:
 
