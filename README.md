@@ -77,6 +77,8 @@ In the settings I've found the following video setup to work well on a Pi 4:
 * Window scale 2x
 * Scanlines off
 
+I've set these up in the default `res/config.xml` so if you want to use them as is, you don't need to change anything.
+
 Everything below here is the original README...
 ---
 
