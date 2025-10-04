@@ -8,6 +8,7 @@ cmake/res/
 cmake/Makefile
 cmake/cmake_install.cmake
 cmake/config.xml
+outrun.zip
 
 ####################
 ## Project Specific
