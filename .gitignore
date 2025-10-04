@@ -1,3 +1,14 @@
+##########################
+## Added by Simon Prickett
+##########################
+
+cannonball
+cmake/roms/
+cmake/res/
+cmake/Makefile
+cmake/cmake_install.cmake
+cmake/config.xml
+
 ####################
 ## Project Specific
 ####################
